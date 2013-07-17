@@ -2,16 +2,35 @@ Reddit Insight - Reddit Analytics [![Build Status](https://travis-ci.org/gdi2290
 =============
 An analytics suite for Reddit.com using their public API, combined with real-time data analysis and graphic visualizations of historical data. A five person team, with varying areas of expertise working together to build an analytics platform on top of the Firehose that is Reddit. Technologies used include JavaScript, Backbone.js, Node.js, Handlebars, d3, Express, MongoDB, Mongoose, and Python scripts.
 
-
 Team:  
-Patrick Stapleton - app architecture, front-end<br>
-Alex Gaputin - pulled all the data, back-end<br>
-Kevin Smith - front-end architecture, realtime data capture, lauyout and styling<br>
-Elle Beal - d3, front-end and project management<br>
-Bill Shelton - data munging, data visualization and machine learning with Python, D3 and R<br>
-Chris Sita - d3 Interaction scatter plot<br>
+<b>Patrick Stapleton</b> [gdi2290.com](https://gdi2290.com/) - Overall MVC architecture, Full-Stack, code refactoring, debugging suite, integrating everything.<br>
+<b>Alex Gaputin</b> [googamanga.tumblr.com](http://googamanga.tumblr.com/) - Initiated the idea, pulled all the data from Reddit.com, worked on Word Clouds and Interaction scatter plot, and sliced and diced the data for the "data nuggets", Interactions, and Graphs pages.<br>
+<b>Kevin Smith</b> [kevinhamiltonsmith.com](http://kevinhamiltonsmith.com/) - Front-side architecture (router, controller, views, and models), real-time data capture, front-end layout and styling, and user interface.<br>
+<b>Elle Beal</b> [ellebeal.com](http://ellebeal.com/) - Worked primarily on the front end integrating the data into the d3.js graphs, project management, as well as styling and user testing.<br>
+<b>Bill Shelton</b> [williamshelton.nodejitsu.com](http://williamshelton.nodejitsu.com/) - lead data scientist, data munging, data visualization and machine learning with Python, D3 and R.<br>
+<b>Chris Sita</b> - d3 Interaction scatter plot<br>
 
 Logo - Alex Trimpe http://alextrimpe.com/
+
+===
+Requirements:  
+```bash
+npm nodemon
+```
+
+Installing Reddit Insight:  
+
+```bash
+$ npm install -g nodemon
+$ npm start
+```
+
+```bash
+$ git clone https://github.com/gdi2290/RedditInsight.git
+$ cd RedditInsight
+$ npm install
+```
+===
 
 #Debug Helpers
 

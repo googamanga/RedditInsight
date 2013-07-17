@@ -5,6 +5,10 @@ html, body {
   height: 100%;
 }
 
+.collapse.in {
+  height: auto !important;
+}
+
 body{
   background-color: rgba(239,97,36,1);
 }
@@ -140,6 +144,7 @@ a.preview:hover {
 }
 #user-chart{
   float: left;
+  margin: 30px auto;
 }
 
 /****************
@@ -152,6 +157,48 @@ a.preview:hover {
 .wordcloud-form p, .wordcloud-form select, .wordcloud-form input{
   display:inline;
   margin:10px; /* only affects left and right */
+}
+
+/************
+  * About *
+ ***********/
+ #about .about-us {
+  padding: 10px;
+ }
+
+#about .team p {
+  padding-left: 30px;
+  margin: 0 0 5px;
+}
+
+.about-us p, #about .about-us h4 {
+  text-align: left;
+}
+
+.index-smallest {
+  margin-top: 10px;
+  padding-left: 20px;
+
+  color: rgba(95,153,207,1);
+  font-weight: 700;
+  letter-spacing: -.05em;
+  text-shadow:
+     -1px -1px 0 white,
+      1px -1px 0 white,
+      -1px 1px 0 white,
+       1px 1px 0 white;
+  text-align: left;
+  line-height: 100%;
+  font-size: 2.3em;
+}
+
+#about .special-thanks p {
+  padding: 10px 0 0 20px;
+  font-size: 1.1em;
+}
+.index-smallest img {
+  border-radius: 100%;
+  width: 10%;
 }
 
 /************
@@ -486,3 +533,18 @@ footer li a:hover{
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
+
+@media (max-width: 767px) {
+  body {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .inner-container {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .nav-collapse .nav {
+    padding-left: 15px
+  }
+}
+
